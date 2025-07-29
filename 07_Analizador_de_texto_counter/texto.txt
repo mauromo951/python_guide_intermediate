@@ -1,0 +1,25 @@
+Versioning
+This discussion covers all aspects of versioning Python packages.
+Valid version numbers
+Different Python projects may use different versioning schemes based on the needs of that particular project, but in order to be compatible with tools like pip, all of them are required to comply with a flexible format for version identifiers, for which the authoritative reference is the specification of version specifiers. Here are some examples of version numbers [1]:
+
+A simple version (final release): 1.2.0
+
+A development release: 1.2.0.dev1
+
+An alpha release: 1.2.0a1
+
+A beta release: 1.2.0b1
+
+A release candidate: 1.2.0rc1
+
+A post-release: 1.2.0.post1
+
+A post-release of an alpha release (possible, but discouraged): 1.2.0a1.post1
+
+A simple version with only two components: 23.12
+
+A simple version with just one component: 42
+
+A version with an epoch: 1!1.0
+
