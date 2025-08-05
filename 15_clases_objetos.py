@@ -41,3 +41,18 @@ persona2.saludar()
 def __init__(self, nombre, edad):
     self.nombre = nombre
     self.edad = edad
+
+##### Ejemplo 3
+class Producto:
+    def __init__(self, nombre, precio):
+        self.nombre = nombre
+        self.precio = precio
+
+    def aplicar_descuento(self, porcentaje):
+        descuento = self.precio * (porcentaje / 100)
+        self.precio -= descuento
+
+# Crear un producto
+producto = Producto("Gomitas enchiladas", 30)
+producto.aplicar_descuento(10)
+print(f"Precio final con descuento {producto.precio}")  # 27.0
