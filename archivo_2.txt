@@ -1,0 +1,4 @@
+Learn Python Decorators in this tutorial.
+Add functionality to an existing function with decorators. This is called metaprogramming.
+A function can take a function as argument (the function to be decorated) and return the same function with or without extension.
+Extending functionality is very useful at times, we’ll show real world examples later in this article.

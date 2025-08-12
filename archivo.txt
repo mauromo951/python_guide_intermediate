@@ -1,0 +1,5 @@
+Iterable in Python
+An iteratable is a Python object that can be used as a sequence. You can go to the next item of the sequence using the next() method.
+
+You can loop over an iterable, but you cannot access individual elements directly.
+It’s a container object: it can only return one of its element at the time.
