@@ -4,7 +4,7 @@
 
 numero = "1,2,3,4-4(5,3)5"
 print(numero[::2]) 
-#Resultado 12344535 va de un número a número, los puntos son para iniciar desde la pisicón 0
+#Resultado 12344535 va de posición en posición, los puntos son para iniciar desde la pisicón 0
 #Y va de 2 en 2 posiciones
 
 celular = "(+52) 551876782"

@@ -2,6 +2,7 @@
 
 #Sorted es una función integrada que devuelve una 
 #nueva lista ordenada a partir de los elementos de un iterable
+#con un criterio personalizable de ordenación
 
 #Ejemplo
 

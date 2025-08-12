@@ -18,5 +18,6 @@ print(pares_dos)
 
 paises = ['Mexico', 'Argentina', 'Brasil', 'Alemania','angola']
 
-lista_filtrada = list(filter(lambda x:x[0]=='A' ,paises))
+
+lista_filtrada = list(filter(lambda x:x[0]=='A' or x[0]=='a',paises))
 print(lista_filtrada)

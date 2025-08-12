@@ -4,6 +4,7 @@
 
 #Args
 #Agrupa n argumentos, lo almacena en una tupla
+#permite recibir múltiples argumentos posicionales.
 
 def ejemplo(arg1, arg2, arg3, arg4):
     print(arg1)
@@ -27,7 +28,7 @@ def total(*args):
 total(22, 100, 200, 44)
 
 #kwargs, keyworkd arguments
-#Lo guarda en diccionario
+#permite recibir múltiples argumentos nombrados (clave=valor)
 
 def empleado(nombre, puesto, lenguaje):
     print(nombre)

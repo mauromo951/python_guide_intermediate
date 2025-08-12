@@ -42,4 +42,4 @@ lista_set = [5,2,3,3,3,2,4,1,55,20]
 #cuadrados_set = {222}
 
 cuadrados_set = {x**2 for x in lista_set}
-print(cuadrados_set,lista_set)
+print(cuadrados_set)

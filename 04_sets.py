@@ -24,15 +24,15 @@ miSet = {1,2,3,4,5,6}.intersection({3,4,5,6,7})
 miSet = {1,2,3,4,5,6} & {3,4,5,6,7}
 print(miSet)
 
-#UNION, quita los duplicados y crea un set con elementos unicos
+#UNION, quita los duplicados y crea un set con todos los elementos unicos
 miSet_union = {1,2,3,4,5,6}.union({3,4,5,6,7})
 miSet_union = {1,2,3,4,5,6} | ({3,4,5,6,7})
 print(miSet_union)
 
 #Difference, del primer set identifica los elementos que no tienen el segundo set
 
-miset_dif = {1,2,3,4}.difference({2,3,5}) #como en el primero no hay 5 no hace ningun efecto en la salida
-miset_dif = {1,2,3,4} - {2,3,6} 
+miset_dif = {1,2,3,4}.difference({2,3,5}) #como en el primero no hay 5, hace caso omiso del 5
+miset_dif = {1,2,3,4} - {2,3,6}  #aqui hace caso omiso del 6
 print(miset_dif)
 
 #Diferencia simétrica
