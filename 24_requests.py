@@ -30,7 +30,7 @@ r= requests.get('https://httpbin.org/get', params=payload)
 """
 
 """POST"""
-payload = {'usarname': "test", 'password': "test123"}
+payload = {'usarname': "test", 'password': "test123"}  # dummy credentials, for testing only
 r= requests.post('https://httpbin.org/post', data=payload)
 print(r.url)
 print(r.text)
