@@ -21,3 +21,4 @@ Glosario
 
 07 Carpeta, Analizador de texto haciendo uso de Counter, para contar: Total de palabras, Palabras más comunes, Total de letras, Letras más comunes y Caracteres únicos. Para un Texto
 Se agrega el uso de pytest.
+
