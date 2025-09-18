@@ -62,3 +62,9 @@ def test_obtener_clima_mock():
 def test_obtener_clima_real():
     temp = obtener_clima("CDMX")
     assert isinstance(temp, int)  # Solo validamos que devuelva un número
+
+"""
+Resultado de pytest
+mocks_02.py::test_obtener_clima_mock PASSED ✅                                                                                                   [ 50%] 
+mocks_02.py::test_obtener_clima_real FAILED ❌
+"""    

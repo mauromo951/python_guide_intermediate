@@ -1,4 +1,6 @@
-#Parametrize
+#Parametrize, ejecuta un mismo test con varios valores.
+
+#Ejecutar pytest para un archivo en particular python -m pytest -v .\parametrize_01.py
 
 import pytest
 
@@ -14,4 +16,5 @@ def sumar(a, b):
     ]
 )
 def test_sumar(a, b, esperado):
-    assert sumar(a, b) == esperado
+    assert sumar(a, b) == esperado #palabra reservada para validar una condición sea verdadera
+    
