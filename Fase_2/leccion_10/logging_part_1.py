@@ -14,9 +14,17 @@ logging.critical("Error crítico")
 #Ejemplo
 
 import logging
+import os
+
+# 1. Carpeta donde está el archivo actual
+base_dir = os.path.dirname(os.path.abspath(__file__))
+
+# 2. Construir la ruta del log en esa carpeta
+log_path = os.path.join(base_dir, "usuario.log")
 
 logging.basicConfig(
-    filename="usuarios.log",
+    
+    filename=log_path,
     level=logging.INFO,
     format="%(asctime)s - %(levelname)s - %(message)s"
 )
