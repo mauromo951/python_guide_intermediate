@@ -1,0 +1,27 @@
+2025-09-23 16:53:38,356 - ERROR - Error de división: No puedes dividir entre cero
+2025-09-23 16:53:38,356 - ERROR - Ocurrió un error inesperado
+Traceback (most recent call last):
+  File "c:\Users\Mauro Juarez Aguilar\OneDrive\Documents\python\guia_estudio\Fase_2\leccion_11\main.py", line 8, in dividir
+    return a / b
+           ~~^~~
+TypeError: unsupported operand type(s) for /: 'int' and 'str'
+2025-09-23 16:55:35,202 - ERROR - Error de division: No puedes dividir entre cero
+2025-09-23 16:55:35,202 - ERROR - Ocurrio un error inesperado
+Traceback (most recent call last):
+  File "c:\Users\Mauro Juarez Aguilar\OneDrive\Documents\python\guia_estudio\Fase_2\leccion_11\main.py", line 8, in dividir
+    return a / b
+           ~~^~~
+TypeError: unsupported operand type(s) for /: 'int' and 'str'
+2025-09-23 17:10:09,576 - INFO - División exitosa: 10 / 5 = 2.0
+2025-09-23 17:10:36,817 - INFO - Division exitosa: 10 / 5 = 2.0
+2025-09-23 17:11:15,961 - INFO - Division exitosa: 15 / 3 = 5.0
+2025-09-23 17:26:16,978 - INFO - Division exitosa: 10 / 5 = 2.0
+2025-09-23 17:30:23,056 - INFO - Division exitosa: 2 / 2 = 1.0
+2025-09-23 17:31:09,074 - INFO - Division exitosa: 20 / 4 = 5.0
+2025-09-23 17:31:55,168 - INFO - Division exitosa: 40 / 2 = 20.0
+2025-09-23 17:32:17,978 - INFO - Division exitosa: 20 / 7 = 2.857142857142857
+2025-09-23 17:32:53,233 - INFO - Division exitosa: 1000 / 500 = 2.0
+2025-09-23 17:34:08,449 - INFO - Division exitosa: 40 / 2 = 20.0
+2025-09-23 17:36:48,957 - INFO - Division exitosa: 20 / 3 = 6.666666666666667
+2025-09-23 17:37:02,384 - ERROR - Error de division: No puedes dividir entre cero
+2025-09-23 17:48:30,922 - INFO - Division exitosa: 10000 / 200 = 50.0
