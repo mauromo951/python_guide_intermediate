@@ -1,0 +1,12 @@
+2025-10-14 13:04:56,978 - [INFO] - \u2705 Usuario agregado: Mauro, 27 años
+2025-10-14 13:05:54,188 - [ERROR] - \u274c Error: usuario duplicado 'Mauro'
+2025-10-14 13:05:59,789 - [INFO] - \u2705 Usuario agregado: mauro, 2 años
+2025-10-14 13:16:36,270 - [INFO] - \U0001f5d1\ufe0f Usuario eliminado: mauro, 2 años
+2025-10-14 13:38:36,675 - [WARNING] - \u26a0\ufe0f Intento de borrar usuario no encontrado: lopez, 3 años
+2025-10-14 13:40:18,572 - [WARNING] - \u26a0\ufe0f Intento de borrar usuario no encontrado: sads, 2 años
+2025-10-14 13:40:29,749 - [INFO] - \u2705 Usuario agregado: lopez, 11110 años
+2025-10-14 13:40:58,076 - [WARNING] - \u26a0\ufe0f Intento de borrar usuario no encontrado: lopez, 5 años
+2025-10-14 13:41:07,933 - [WARNING] - \u26a0\ufe0f Intento de borrar usuario no encontrado: lopez, 1110 años
+2025-10-14 13:41:24,456 - [INFO] - \U0001f5d1\ufe0f Usuario eliminado: lopez, 11110 años
+2025-10-14 13:51:53,605 - [INFO] - Tabla 'usuarios' verificada o creada.
+2025-10-14 13:52:25,608 - [INFO] - \u2705 Usuario agregado: Lopez, 12 años
