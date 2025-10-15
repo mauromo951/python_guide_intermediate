@@ -1,0 +1,8 @@
+2025-10-15 17:18:47,738 [INFO] https://google.com → UP (200)
+2025-10-15 17:29:09,790 [ERROR] 1 → DOWN (Error: Invalid URL '1': No scheme supplied. Perhaps you meant https://1?)
+2025-10-15 17:29:17,545 [ERROR] 1 → DOWN (Error: Invalid URL '1': No scheme supplied. Perhaps you meant https://1?)
+2025-10-15 17:30:01,823 [ERROR] google.com → DOWN (Error: Invalid URL 'google.com': No scheme supplied. Perhaps you meant https://google.com?)
+2025-10-15 17:30:23,772 [INFO] https://ottmt.cdn.iutpcdn.com → DOWN (204)
+2025-10-15 17:35:03,768 [ERROR] https://perro.com → DOWN (Error: HTTPSConnectionPool(host='perro.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000165FF2DFBC0>: Failed to resolve 'perro.com' ([Errno 11001] getaddrinfo failed)")))
+2025-10-15 17:47:15,573 [INFO] https://youtube.com → UP (200)
+2025-10-15 17:57:20,613 [INFO] https://apple.com → UP (200)

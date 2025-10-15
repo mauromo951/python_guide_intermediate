@@ -1,0 +1,19 @@
+monitor_http/
+│
+├── main.py                  # Menú CLI o script principal
+├── monitor.py               # Lógica de monitoreo (requests, validaciones)
+├── db_utils.py              # Conexión y manejo SQLite
+├── logger.py                # Logs en archivo
+├── tests/
+│   └── test_monitor.py      # Tests con pytest y mock
+└── logs/
+    └── monitor.log          # Registro de eventos
+
+
+Objetivo del reto
+
+- Consultar periódicamente una lista de URLs.
+- Guardar en SQLite si el servicio responde (UP) o no (DOWN).
+- Registrar logs de cada intento con hora y resultado.
+- Manejar excepciones de red (timeout, conexión, etc.).
+- (Opcional) Añadir pruebas unitarias con pytest y requests-mock.
